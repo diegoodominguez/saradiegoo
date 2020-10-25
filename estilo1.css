@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+ }
+ header{
+ 	height: 100px;
+ 	position: fixed;
+ 	width: 100%;
+ 	background-color: rgba(0, 0, 0, 0.8);
+ 	top: 0;
+ 	z-index: 10;
+ }
+ .cabezera{
+ 	width: 100%;
+ 	padding: 10px;
+ 	text-align: right;
+ 	position: fixed;
+ 	top: 0px;
+}
+.cab_nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 50px;
+	color: white;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+.cab_nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.nomb_logo{
+	width: 490px;
+	padding: 20px 0px;
+	float: left;
+	position: relative;
+	top: 2%;
+	left: 2%;
+	color: white;
+	font-size: 30px;
+}
+.logo_img{
+	width: 100px;
+	position: absolute;
+	/*transform: translateX(-1710%) translateY(-40%);*/
+	top: 8px;
+	left: 8px;
+}
+.contenedor{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-15%);
+	padding: 25px 10px;
+	border: color white;
+	background-color: rgba(255, 184, 50, 0.6);
+
+}
+.titulo_cont{
+	font-size: 40px;
+	text-align: center;
+	padding: 20px 10px;
+	color: white;
+}
+.parrafo_cont{
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+}
+.contenedor1{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-5%);
+	padding: 25px 10px;
+	border: color white;
+	background-color: rgba(255, 184, 50, 0.6);
+}
+.titulo_cont1{
+	font-size: 40px;
+	text-align: center;
+	padding: 20px 10px;
+	color: white;
+}
+.parrafo_cont{
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+}	
+.imagen{
+	position: fixed;
+	min-width: 180%;
+	min-width: 120%;
+	top: 25%;
+	left:25%;
+    transform: translateY(-50%) translateX(-25%);
+    z-index: -1;
+}
+.foot{
+	background-color: rgba(0, 0, 0, 0.6);
+	bottom: 0px;
+	width: 100%;
+	padding: 10px 0px;
+	position: absolute;
+}
+.foot_p{
+	color: #fff;
+	text-align: center;
+}
+.marca{
+	background-color: rgba(85, 79, 77, 1);
+}

@@ -1,0 +1,44 @@
+*{
+	padding: 5px;
+	margin: 5px;
+	background-image: url("imagenes/fondotres.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.form{
+	padding: 0px;
+	box-shadow: 8px 8px 8px 8px;
+	width: 380px;
+	height: 360px;
+	border: 5px;
+	align-content: center;
+	color: black;
+	background-color: black;
+	border-color: black;
+
+}
+.p_container{
+	font-family: sans-serif;
+	text-align: center;
+	color: black;
+}
+.text{
+	padding: 5px;
+	background-color: black;
+	color: black;
+	font-size: 18px;
+
+}
+input[type="usuario"]{
+	color: black;
+	border-color: black;
+}
+input[type="password"]{
+	color: black;
+	border-color: black;
+}
+input[type="button"]{
+	color: black;
+	border-color: black;
+	background-color: black;
+}

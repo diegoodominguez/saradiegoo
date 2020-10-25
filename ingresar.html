@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> validacion de claves</title>
+  <link rel="stylesheet" type="text/css" href="estiloing.css">
+  
+<script>
+function comprobarClave () {
+ clave1 = document.f1.clave1.value
+ clave2 = document.f1.clave2.value
+  if (clave1== "sarai"&& clave2 == "diego"){
+     alert ("Los datos coinciden...\n Bienvenido");
+     var href = "https://github.com/diegoodominguez/saradiegoo.git";
+      window.location=href;
+     }
+  else{
+      alert ("Las dos claves son distintas...\n VUELVA A INTENTAR.")  
+      var href = "ingresar.html";
+      window.location=href;
+      };
+   };
+ </script>
+ </head>
+ <body>
+  <center>
+  <div class="form">
+ <form action="" name="f1">
+  <div class="text">
+ 	<h1>VALIDAR PARA EL INGRESO</h1>
+ </div>
+  <br>
+<label for="password">Usuario: <input type="usuario" name="clave1" size="20"></label>
+</br>
+ <br>
+ <label for="password">Contraseña:<input type= "password" name="clave2" size="20" bgcolor="red"></label>
+ </br>
+ <input type="button" value="INGRESAR" onClick="comprobarClave()">
+ </form>
+</center>
+</div>
+
+ </dody>
+ </html>
